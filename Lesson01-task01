@@ -1,18 +1,16 @@
 <!DOCTYPE html>
 <html>
-<head>
-</head>
+ <head>
+   <meta charset="utf-8">
+   <title>Lesson01-task01</title>
+ </head>
 
-<body>
-</body>
-
-
-
-
-
-
-
-
-
+ <body>
+   <p><strong>This text is strong.</strong><em>This text is emphasized.</em><br>
+   <ins>This text is inserted.</ins><del>This text is deleted.</del></p>
+   <p style="text-align:right">This is some text.</p>
+   <p style="text-align:center">This is some text.</p>
+   <p style="text-align:justify">This is some text.</p>
+ </body>
 
 </html>
