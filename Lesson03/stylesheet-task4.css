@@ -1,0 +1,15 @@
+﻿a[href$="ru"] {
+               color:#f70; 
+}
+
+a[href$="com"] {
+               color:#666; 
+}
+
+a[target="_blank"]::after {
+                           content:"\21F1";
+                           margin: 5px;
+                           transform: rotate(90deg);
+                           
+                           
+}
