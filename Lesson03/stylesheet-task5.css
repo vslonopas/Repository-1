@@ -1,0 +1,9 @@
+﻿tr:nth-of-type(even) {
+                     background: #ddebf7;
+}
+
+
+
+td:nth-of-type(odd):not(:first-of-type) {
+                     background: #f2f2de;
+}
