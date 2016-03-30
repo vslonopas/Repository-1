@@ -1,0 +1,31 @@
+﻿.pagination {
+            list-style-type: none;
+            text-align: center;
+            overflow: hidden;
+}
+
+.pagination li {
+   display: inline-block;
+}
+
+.pagination li a {
+      display: block;
+      text-decoration: none;
+      color: darkviolet;
+      border: 1px solid lightgrey;
+      padding: 5px 8px;
+      border-radius: 5px;
+}
+
+.pagination li a.dots, 
+.pagination li a.first,
+.pagination li a.prev,
+.pagination li a.next,
+.pagination li a.last {
+                       border: none;
+}
+
+.pagination li a:hover {
+            background: darkviolet;
+            color: white;
+}

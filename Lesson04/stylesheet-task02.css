@@ -1,0 +1,40 @@
+﻿nav {
+     background: #c266ff;   
+}
+
+ul {
+   list-style-type: none;
+   font-family: impact;
+   font-size: 15px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   width: 900px;
+      
+}
+
+li {
+    float: left;
+    padding: 14px 16px;
+    }
+
+li a {
+      display: block;
+      text-decoration: none;
+      color: white;
+}
+
+li:hover {
+          background: #eeeeee;
+}
+
+li a:hover {
+            background: #eeeeee;
+            color: #bbbbbb;
+            
+}
+
+#right {
+       float: right;
+}
