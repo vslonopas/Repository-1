@@ -1,0 +1,62 @@
+﻿label {
+       text-decoration: underline;
+}
+
+label[for="red"] {
+                  color:red;
+}
+
+label[for="green"] {
+                  color:green;
+}
+
+label[for="blue"] {
+                  color:blue;
+}
+
+span {
+      color: white;
+      border-radius: 5px;  
+      padding: 2px 8px;
+}
+
+.red {
+      background: red;    
+}
+
+.green {
+      background: green;  
+}
+
+.blue {
+      background: blue;  
+}
+
+input[type="checkbox"] {
+                        display: none;
+}
+
+input[type="checkbox"]:checked#red ~ .red {
+                        display: none;
+}
+
+input[type="checkbox"]:checked#red ~ label[for="red"] {
+                        opacity: 0.2;
+}
+
+input[type="checkbox"]:checked#green ~ .green {
+                        display: none;
+}
+
+input[type="checkbox"]:checked#green ~ label[for="green"] {
+                        opacity: 0.2;
+}
+
+input[type="checkbox"]:checked#blue ~ .blue {
+                        display: none;
+}
+
+input[type="checkbox"]:checked#blue ~ label[for="blue"] {
+                        opacity: 0.2;
+}
+
