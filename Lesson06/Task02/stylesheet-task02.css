@@ -1,0 +1,68 @@
+﻿body {
+      margin: 0;
+      padding: 0;
+      background: url(background_img.png);
+      font-family: Trebuchet MS;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(30,120,180);
+}
+
+span#what {
+          color: orange;
+}
+
+.clients {
+          width: 100%;
+          margin: 10px;
+          display: flex;
+          justify-content: center; 
+}   
+
+.container {
+            width: 100%;
+            display: flex;
+            align-items: center; 
+            justify-content: center; 
+}
+
+.text-area {
+            background: white;
+            padding: 15px;
+            width: 350px;
+            height: 67px;
+            font-size: 12px;         
+            margin:0 30px;
+            position: relative;
+            display: block;
+}
+
+.text-area::before {
+                    content: "";
+                    position: absolute;
+                    top: 42px;
+                    right: 100%;
+                    border-width: 10px;
+                    border-style: solid;
+                    border-color: transparent white transparent transparent;
+}
+
+
+.upper-text {
+             color: rgb(30,120,180);
+             font-style: italic;
+             border-bottom: 1px dotted black;
+             padding: 0 0 6px 0;
+}
+
+span#right {
+           float: right;
+}
+
+p {
+   text-align: justify;
+   color: grey;
+}
+
