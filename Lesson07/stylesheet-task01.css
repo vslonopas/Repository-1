@@ -1,0 +1,29 @@
+﻿
+.table-wrapper {
+
+
+                display: flex;
+                flex-direction: column;
+                margin: auto;                              
+                text-align: center;
+                                
+                text-shadow: 2px 2px  5px grey;
+                               
+}
+
+div[class^="row"] { 
+      display: flex; 
+      justify-content: space-between; 
+      font-family: Trebuchet MS;
+       width: 400px    
+
+} 
+
+.row1 {font-size: 120px;}
+.row2 {font-size: 100px;}
+.row3 {font-size: 90px;}
+.row4 {font-size: 80px;}
+.row5 {font-size: 70px;}
+.row6 {font-size: 60px;}
+.row7 {font-size: 50px;}
+.row8 {font-size: 40px;}
